@@ -1,0 +1,91 @@
+body {
+  font-family: Arial;
+  background: #fff7f2;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: #ff6f61;
+  padding: 10px;
+  color: white;
+}
+
+.admin,
+.products,
+.cart {
+  background: white;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+button {
+  background: #ff6f61;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.product-card {
+  border-bottom: 1px solid #ddd;
+  padding: 8px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ===== HEADER ===== */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: linear-gradient(135deg, #ff6f61, #ff8a75);
+  padding: 14px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.header nav a {
+  margin-left: 18px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+}
+
+.header nav a:hover {
+  opacity: 0.8;
+}
+
+
+
+
+
+
